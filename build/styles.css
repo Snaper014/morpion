@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  td{
+    border: 1px solid black;
+    width: 33.33%;
+    height: 33.33%;
+    padding: 10px;
+    text-align: center;
+  }
+  .Board{
+    height: 50vh;
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 1%;
+  } 
+  #Replay{
+    background-color: crimson;
+    height: 60px;
+    width: 200px;
+    color: white;
+    border: none;
+    margin-top: 1%;
+    border-radius: 5%;
+  }
+  #Title{
+    width: 50%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  #Modaltitle{
+      font-weight: 550;
+      font-size: 0.8em;
+      margin-bottom: 2%;
+      width: 100%;
+      text-align: center;
+  }
+  #ModalButton{
+    background-color: crimson;
+    border: none;
+    width: 15%;
+    color: white;
+  }
+  #Joueur{
+    width: 100%;
+    align-self: flex-end;
+  }
+  .DIVLeftSide{
+    height: 20%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .Conteneur{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #Shadow{
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+}
+#DisplayContainer{
+  background-color: transparent;
+  border: 1px solid transparent;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#DisplayMessage{
+  background-color: white;
+  border: 1px solid black;
+  width: 30%;
+  height: 25%;
+  z-index: 7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 420px) {
+  #Replay{
+    background-color: crimson;
+    height: 40px;
+    white-space: pre-wrap;
+    width: 90%;
+    color: white;
+    border: none;
+    margin-top: 1%;
+    border-radius: 5%;
+  }
+  .Board{
+    height: 50vh;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1%;
+  }
+  #Title{
+    width: 100%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  #DisplayMessage{
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    z-index: 7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+ 
