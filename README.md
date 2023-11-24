@@ -1,6 +1,6 @@
 # Tic-Tac-Toe (Morpion) Game
 
-![Tic-Tac-Toe Game](/image/Morpion-image.png)
+![Tic-Tac-Toe Game](build/image/Morpion-image.png)
 
 ## Overview
 
